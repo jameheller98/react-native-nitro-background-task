@@ -1,0 +1,17 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": ["nitrobackgroundtask"],
+  "ios": {
+    "iosModuleName": "NitroBackgroundTask"
+  },
+  "android": {
+    "androidNamespace": ["nitrobackgroundtask"],
+    "androidCxxLibName": "NitroBackgroundTask"
+  },
+  "autolinking": {
+    "Math": {
+      "cpp": "HybridMath"
+    }
+  },
+  "ignorePaths": ["**/node_modules"]
+}
